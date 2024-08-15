@@ -12,7 +12,7 @@
         <ul class="menu">
             <li><a href="${pageContext.request.contextPath}/testMenu">Test Management</a></li>
             <li><a href="${pageContext.request.contextPath}/userMenu">User Management</a></li>
-            <li><a href="${pageContext.request.contextPath}/testStart">Test Implementation</a></li>
+            <li><a href="${pageContext.request.contextPath}/testSelect">Test Implementation</a></li>
             <li><a href="${pageContext.request.contextPath}/testEdit">Change Account Information</a></li>
         </ul>
     </div>

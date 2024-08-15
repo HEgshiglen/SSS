@@ -8,26 +8,35 @@ public class IndexController {
 
     @GetMapping("/menu")
     public String showMenu() {
-        return "menu"; // This returns the view name for menu.jsp
+        return "menu"; 
     }
 
     @GetMapping("/testMenu")
     public String showTestMenu() {
-        return "testMenu"; // Adjust according to your actual view
+        return "testMenu";
     }
 
     @GetMapping("/userMenu")
     public String showUserMenu() {
-        return "userMenu"; // Adjust according to your actual view
+        return "userMenu"; 
     }
 
     @GetMapping("/testStart")
     public String showTestStart() {
-        return "testStart"; // Adjust according to your actual view
+        return "testStart"; 
     }
 
     @GetMapping("/testEdit")
     public String showAccountEdit() {
-        return "testEdit"; // Adjust according to your actual view
+        return "testEdit";
+    }
+
+    @GetMapping("/testSelect")
+    public String showTestSelect() {
+        return "testSelect";
+    }
+    @GetMapping("/testResult")
+    public String showTestResult() {
+        return "testResult";
     }
 }

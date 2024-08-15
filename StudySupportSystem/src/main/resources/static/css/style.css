@@ -127,37 +127,7 @@ label {
     margin-bottom: 5px;
 }
 
-/* Button styles */
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 10px;
-}
 
-button:hover {
-    background-color: #0056b3;
-}
-
-button.delete-button {
-    background-color: #dc3545;
-}
-
-button.delete-button:hover {
-    background-color: #c82333;
-}
-
-button.return-button {
-    background-color: #6c757d;
-}
-
-button.return-button:hover {
-    background-color: #5a6268;
-}
 
 /* Input and form styles */
 input[type="text"] {
@@ -169,6 +139,7 @@ input[type="text"] {
     box-sizing: border-box;
     margin-bottom: 10px;
 }
+
 
 form {
     margin-bottom: 20px;
